@@ -1,0 +1,76 @@
+@import "./Variables.css";
+
+header {
+  background: var(--nav-color);
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+#linksHolder .nav-link {
+  color: var(--text-color);
+  transition: 0.3s;
+  position: relative;
+}
+.navbar .dropdown-menu a {
+  padding: 5px;
+  font-size: .8375rem;}
+
+#logo {
+  font-size: 1.25rem;
+  color: var(--text-color);
+  transition: 0.3s;
+  text-decoration: none;
+}
+#linksHolder .nav-link:hover {
+  color: var(--main-color);
+}
+#linksHolder .nav-link.active,
+#linksHolder .nav-link:hover {
+  color: var(--main-color);
+}
+#linksHolder .nav-link.active::after,
+#linksHolder .nav-link::after {
+  color: var(--main-color);
+  content: "";
+  position: absolute;
+  background-color: var(--main-color);
+  transition: 0.3s;
+  height: 0.1rem;
+  width: 90%;
+  left: -100%;
+  bottom: 5%;
+  border-radius: 4px;
+}
+#linksHolder .nav-link.active::after,
+#linksHolder .nav-link:hover::after {
+  left: 5%;
+}
+#linksHolder .nav-item {
+  overflow: hidden;
+}
+#logo:hover {
+  text-shadow: var(--main-color) 0px 5px 15px;
+}
+
+.container .bi-list {
+  color: var(--text-color);
+  font-size: 1.75rem;
+}
+.flexnav{
+  display: flex !important;
+  flex-direction: row ;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media only screen and (max-width: 768px) {
+  #offcanvasNavbar {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    max-width: 50%;
+  }
+  #linksHolder .nav-link.active::after,
+  #linksHolder .nav-link:hover::after {
+    left: 0;
+  }
+}
+

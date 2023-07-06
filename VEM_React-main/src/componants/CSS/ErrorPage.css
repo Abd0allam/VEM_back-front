@@ -1,0 +1,17 @@
+#errorPage p:first-child {
+  color: #4f46e5;
+}
+#errorPage p:last-of-type {
+  color: #4b5563;
+}
+#errorPage h1 {
+  color: #111827;
+  font-size: 2.5em;
+}
+#errorPage a {
+  background-color: #4f46e5;
+  text-decoration: none;
+}
+#errorPage a:hover {
+  background-color: #6366f1;
+}

@@ -1,0 +1,12 @@
+{% load static %}
+
+<p>Hello {{ user.username }},</p>
+
+<p>Thank you for registering with our website. To activate your account, please click on the following link:</p>
+
+<a href="{{ protocol }}://{{ domain }}{% url 'djoser:activation_confirm' uid=uid token=token %}">Activate my account</a>
+
+<p>If you did not register with our website, please ignore this email.</p>
+
+<p>Thank you,</p>
+<p>The {{ site_name }} team</p>

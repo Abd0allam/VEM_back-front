@@ -1,0 +1,12 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  scrollbar-width: none;
+  scroll-snap-type: y mandatory;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}

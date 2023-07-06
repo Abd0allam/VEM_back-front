@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a51b7abf.css",
+    "main.js": "/static/js/main.47ef6230.js",
+    "static/media/car2.jpg": "/static/media/car2.17a49eb1cb2a1fc35121.jpg",
+    "static/media/preview.png": "/static/media/preview.3d63e6744a37cb528558.png",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/car1.jpg": "/static/media/car1.e0e550b2f0a2c7230abd.jpg",
+    "static/media/e-commerce.png": "/static/media/e-commerce.5253f4f8d60b582b3a1e.png",
+    "static/media/shopping2.svg": "/static/media/shopping2.511f6c641ba9fe847b5f80d0a190b4a4.svg",
+    "static/media/user.jpg": "/static/media/user.479b494978354b339dab.jpg",
+    "static/media/LogoShopClothes.png": "/static/media/LogoShopClothes.21f08573db07435878ac.png",
+    "static/media/quality.png": "/static/media/quality.58772e9dcb0189169285.png",
+    "static/media/photo edit.png": "/static/media/photo edit.6aaf85b00a6b1a5094da.png",
+    "static/media/shopping1.svg": "/static/media/shopping1.a50128af52481d8afbafa41d006d751b.svg",
+    "static/media/shopping3.svg": "/static/media/shopping3.3c82387573c0c44c5b6176bdc60fa664.svg",
+    "static/media/edit-button.png": "/static/media/edit-button.a2119a04e41c7fcc5bd7.png",
+    "index.html": "/index.html",
+    "main.a51b7abf.css.map": "/static/css/main.a51b7abf.css.map",
+    "main.47ef6230.js.map": "/static/js/main.47ef6230.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a51b7abf.css",
+    "static/js/main.47ef6230.js"
+  ]
+}

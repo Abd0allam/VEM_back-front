@@ -1,0 +1,11 @@
+.carousel::before {
+  content: '';
+  position: absolute;
+  background-color: #081b29;
+  opacity: 0.4;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}

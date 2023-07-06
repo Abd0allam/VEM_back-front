@@ -1,0 +1,26 @@
+@import "./Variables.css";
+
+footer {
+  height: 100px;
+  background-color: var(--nav-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 1px;
+  position: relative;
+  width: 100%;
+}
+footer div a {
+  color: var(--text-color);
+  margin: auto 10px;
+  transition: 0.3s;
+}
+footer div a:hover {
+  color: var(--main-color);
+}
+
+footer p {
+  margin: 5px auto 0;
+}

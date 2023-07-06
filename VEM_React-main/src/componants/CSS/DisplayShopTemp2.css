@@ -1,0 +1,135 @@
+.shop-banner{
+    height: 40vh;
+    width: 100%;
+    background-color: aqua;
+}
+.shop-banner-img{
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.shop-title{
+    text-align: center;
+    border-radius: 30% 0% 30% 0%;
+    background-color: rgb(71, 144, 144);
+    padding: 1%;
+}
+.shop-details{
+    border: 2px gray solid;
+    margin: 5%;
+    box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.2);
+    padding: 1%;
+}
+.shop-details .element{
+    background-color: rgb(194, 219, 232);
+    padding: 2%;
+    border-radius: 10px;
+    text-align: left;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+}
+.shop-details p {
+    width: 100%;
+    margin-bottom: 0;
+}
+.shop-details h4{
+    width: 100%;
+    margin-bottom: 0;
+}
+.title-detail{
+    border-radius: 5px;
+    padding: 0.5%;
+    background-color: rgb(98, 150, 175);
+    color: white;
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+}
+
+.shop-store{
+    /* border: 2px gray solid; */
+    margin: 5%;
+    /* box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.2); */
+    padding: 3%;
+}
+.shop-store .shop-store-container{
+    padding: 2% 7%;
+
+}
+
+.shop-comments{
+    border: 2px rgb(227, 227, 227) solid;
+    margin: 5%;
+    box-shadow: 0px 0px 15px 7px rgba(109, 109, 109, 0.2);
+    padding: 3%;
+    border-radius: 100px 0% 100px 0%;
+}
+
+.comment-label{
+   border: 3px gray solid;
+   border-radius: 7px;
+   padding: 2% 2%;
+   margin: 2% 5%;
+   width: 90%;
+}
+.comment-label .user-comment{
+    /* background-color: rgb(210, 210, 211); */
+    /* padding: 1.2% 2%; */
+    margin:  2%;
+    border-radius:10px;
+    width: auto;
+}
+.comment-label .body-comment{
+    margin: 2% 2%;
+    margin-bottom: 0;
+    background-color: whitesmoke;
+    padding: 1.2%;
+    border-radius: 10px;
+
+}
+.add-comment{
+    width: 75vw;
+    padding: 1%;
+    margin: 1%;
+    height: auto;
+}
+.div-shop-rate{
+    background-color: rgb(229, 229, 251);
+    padding: 2% 5%;
+    margin: 1% 7%;
+    border: 4px whitesmoke solid;
+    border-radius: 50px ;
+    justify-content: center;
+}
+.shop-rate{
+    background-color: rgb(229, 229, 251);
+    padding: 2% 5%;
+    margin: 1% 7%;
+    border: 4px whitesmoke solid;
+    border-radius: 50px ;
+}
+.shop-report{
+    background-color: rgb(229, 229, 251);
+    padding: 2% 5%;
+    margin: 1% 7%;
+    border: 4px whitesmoke solid;
+    border-radius: 50px ;
+}
+
+
+
+.Photo_Shop{
+    position: relative;
+    bottom:  8vw;
+    border-radius: 50%;
+    height: 24vh;
+    object-fit:cover;
+    object-position: center;
+    border: 2px solid white;
+}
+
+
